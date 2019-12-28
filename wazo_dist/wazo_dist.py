@@ -18,7 +18,7 @@
 
 import argparse
 
-DEFAULT_HOST = 'mirror.wazo.community'
+DEFAULT_HOST = 'deb.b5.pm'
 SOURCE_LIST_PATH = '/etc/apt/sources.list.d/wazo-dist.list'
 NAMED_DISTRIBUTIONS = [
     'xivo-five',
@@ -31,6 +31,7 @@ NAMED_DISTRIBUTIONS = [
     'wazo-rc-stretch',
     'phoenix-stretch',
     'pelican-stretch',
+    'sparrow',
 ]
 DEB_SOURCE_CONTENT = """
 # {distrib}
